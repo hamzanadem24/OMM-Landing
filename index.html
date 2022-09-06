@@ -45,14 +45,14 @@
       <ul>
         <li><a class="mobileLinks" href="#">Help</a></li>
         <li><a class="mobileLinks" href="#">FAQs</a></li>
-        <li><a class="mobileLinks" href="#">Contact Us</a></li>
+        <li><a class="mobileLinks" href="#contact-us">Contact Us</a></li>
 
         <li><a class="desktopLinks" href="#">Home</a></li>
         <li><a class="desktopLinks" href="#">Showcase</a></li>
         <li><a class="desktopLinks" href="#">Pricing</a></li>
         <li><a class="desktopLinks" href="#">Help</a></li>
         <li><a class="desktopLinks" href="#">FAQs</a></li>
-        <li><a class="desktopLinks" href="#">Contact Us</a></li>
+        <li><a class="desktopLinks" href="#contact-us">Contact Us</a></li>
       </ul>
      </nav>
     </div>
@@ -582,6 +582,60 @@
    </section>
   </div>
    <!-- Section 9 End -->
+
+   <!-- Contact Form Section start -->
+   <div class="formSection" id="contact-us">
+    <div class="formSectionContent">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-12">
+          <hr class="MenuDivider mx-auto">
+          <h2 class="text-center contact-formHead">Contact Us</h2>
+
+          <form action="" method="" class="contact-form mt-3" onSubmit="alert('Thank you for your Contacting us');">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <input type="text" id="name" class="cfInput" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 col-12">
+                <input type="number" id="phone" class="cfInput" placeholder="Your Number" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <input type="email" id="email" class="cfInput" placeholder="Your Email" required>
+              </div>
+              <div class="col-md-6 col-12">
+                <input type="text" id="businessName" class="cfInput" placeholder="Business Name" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <input type="text" id="businessType" class="cfInput" placeholder="Business Type">
+              </div>
+              <div class="col-md-6 col-12">
+                <input type="url" id="webUrl" class="cfInput" placeholder="Website URL">
+              </div>
+            </div>
+            <!-- <div class="row justify-content-center">
+              <div class="col-md-12">
+                <input type="url" id="socialUrl" class="cfInput" placeholder="Your Social Media URL">
+              </div>
+            </div> -->
+            <div class="row justify-content-center">
+              <div class="col-md-4 col-12">
+                <input type="submit" id="nextStep" class="submitButton">
+              </div>
+            </div>
+          </form>
+
+          <div id="thank_you" style="display: none;">
+            <p>Thanks for filling up the form!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-- Contact Form Section end -->
   </div>
   <!-- Main Container End -->
   <!-- Main Container end -->
@@ -728,9 +782,21 @@ function backtoTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// Thankyou Message
+  // var nextStep = document.querySelector('#nextStep');
+
+  // nextStep.addEventListener('submit', function (e) {
+  //   // e.preventDefault();
+  //   // Hide first view
+  //   document.getElementById('my_form').style.display = 'none';
+
+  //   // Show thank you message element
+  //   document.getElementById('thank_you').style.display = 'block';
+  // });
+
 </script>
 
-   </script>
 
   </body>
 </html>

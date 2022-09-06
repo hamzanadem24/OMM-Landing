@@ -782,6 +782,51 @@ text-align: center;
 }
 /* section eight css end */
 
+
+/* Form section css start */
+.formSection{
+    padding: 10% 0;
+    width: 100%;
+}
+.contact-formHead{
+    height: 40px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+.cfInput{
+    width: 100%;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: #000;
+    font-family: 'Gilroy';
+    border-radius: 5px;
+    font-size: 18px;
+}
+.submitButton{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #E5133B;
+    outline: none;
+    padding: 10px;
+    background: #E5133B;
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.submitButton:hover{
+    background: #fff;
+    color: #E5133B;
+    border: 1px solid #E5133B;
+}
+/* Form section css end */
 /* section nine css start */
 .sectionNineParent{
     width: 1170px;
@@ -1577,6 +1622,10 @@ text-align: center;
         text-align: center;
      }
      /* section eight css end */
+
+     .cfInput{
+        font-size: 16px;
+     }
 
     /* section Nine css start */
     .sectionNineParent{
