@@ -1,0 +1,1747 @@
+/* Primary Global styling start */
+
+body , html {
+    max-width: 100%;
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+/* menu Fonts */
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url(../fonts/Gilroy/Gilroy-Medium.ttf);
+}
+/* h1 fonts  */
+@font-face {
+    font-family: 'Merriweather';
+    src: url(../fonts/Marryweaher/merriweather.bold.ttf);
+}
+
+/* h2 fonts */
+@font-face{
+    font-family: 'Gilroy Medium';
+    src: url(../fonts/Gilroy/Gilroy-Medium.ttf);
+}
+
+/* H3 Fonts */
+@font-face {
+    font-family: 'Gilroy SemiBold' ;
+    src: url(../fonts/Gilroy/Gilroy-SemiBold.ttf);
+}
+
+/* h4 fonts */
+@font-face {
+    font-family: Gilroyh4font;
+    src: url(../fonts/Gilroy/Gilroy-Regular.ttf);
+}
+/* Paragraph Fonts */
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy/Gilroy-Regular.ttf);
+}
+
+/* Menu Fonts */
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url(../fonts/Gilroy/Gilroy-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryheaderbg : #E5133B; 
+    --headingsecondary: #fff;
+    --textcolor: #1B0005;
+    --sectionbg: #FFEFEF;
+}
+
+
+/* Main Navigation part start */
+.MainNavigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 10000;
+    width: 100%;
+    background-color: var(--primaryheaderbg);
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    background-color:transparent;   
+}
+.OMMNav{
+    max-width: 1170px !important;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    transition: all 0.2s ease-in-out;
+    width: 130px;
+}
+.activeheader{
+    background: #fff;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 4%), 0px 4px 12px rgb(0 0 0 / 6%);
+    height: 70px;
+}
+.activeheader .OMMNav ul li a {
+    color: var(--primaryheaderbg);
+}
+.activeheader .OMMNav .menu-btn i{
+color: var(--primaryheaderbg);
+}
+/* Main Navigation part end  */
+
+/* Container grid system */
+   
+     .MainBannerParent{
+        background: var(--primaryheaderbg);
+        width: 100%;
+        height: 631px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+   
+    .MainHeader{
+    max-width: 1170px !important;
+    margin: 0 auto;  
+    }
+    .container{
+        max-width: 1170px !important;
+        margin: 0 auto !important;
+    }
+    .OMMNav ul{
+        display: flex;
+        list-style: none;
+        width: 300px;
+    }
+    /* header section css start */
+    
+    
+    
+    .OMMNav ul li {
+        margin: 0 6px;
+    }
+    .desktopLinks{
+        display: none;
+    }
+    .OMMNav ul li a{
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Gilroy';
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .OMMNav .menu-btn i{
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+        display: none;
+    }
+    a.active{
+        font-family: 'Gilroy' !important;
+        font-size: 18px !important;
+    }
+    
+    /* header section css end */
+    .bannerContentWrapper{
+    height: 451.9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .OMMNav div{
+        width: 179.69px;
+        height: 67px;
+        margin: 0 auto;
+    }
+    a.btnLinks{
+        font-size: 17px;
+        font-weight: 400;
+        font-family: 'Gilroy Medium';
+        color: var(--textcolor);
+        text-decoration: none;
+    }
+    h1{
+        
+        font-family: 'Merriweather';
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 1.4em;
+        color: var(--headingsecondary);
+    }
+    /* h2{
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40.22px; 
+        font-family: 'Merriweather';
+         color: var(--textcolor);
+    } */
+    h3{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.3em; 
+        font-family: 'Gilroy SemiBold';
+         color: var(--primaryheaderbg);  
+         margin: 0 !important;
+         padding: 0 !important;
+    }
+    h4{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1.3em;   
+        font-family: Gilroyh4font;
+    }
+    p{
+        font-family: 'Gilroy';
+        color: var(--textcolor);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.3em;
+    }
+    .MenuDivider{
+        width: 60px;
+        height: 9px !important;
+        color: var(--primaryheaderbg);
+        opacity: 100% !important;
+    }
+    /* Primary Global styling start */
+    
+    
+    /* Banner section css start */
+    
+    
+    /* Content Part css start */
+    
+    @font-face {
+        font-family: 'Merriweather';
+        src: url(../fonts/Marryweaher/merriweather.regular.ttf);
+    }
+
+    .bannerContent{
+        width: 634px;
+        height: 281px;
+    }
+    .bannerContent h1{
+        width: 634px;
+        height: 129px;
+        font-size: 48px;
+        line-height: 70px;
+        color: var(--headingsecondary);
+        font-family: 'Merriweather';
+    }
+    .bannerContent h2{
+        margin-top: 27px;
+        width: 604px;
+        height: 38px;
+        font-family: 'Gilroy Medium';
+        font-size: 32px;
+        line-height: 37.66px;
+    }
+    .headerbtn{
+        width: 288px;
+        height: 44px;
+        border: none;
+        background-color: #FFEFEF;
+        margin-top: 40px;
+    }
+    .headerbtn a{
+        font-family: 'Gilroy Medium';
+        font-size: 18px;
+        line-height: 21.19px;
+        width: 149px;
+        height: 21px;
+    }
+    /* Content part css end */
+    
+    /* Image part start */
+    .BannerImg img{
+        width: 460.7px;
+        height: 451.9px;
+    }
+    /* Image part end */
+    /* Banner section css end */
+
+    /* section 1 css start */
+    .sectionOne{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section1Content{
+        width: 500px;
+        height: 313px;
+    }
+    .section1Content h2{
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40.22px; 
+        font-family: 'Merriweather';
+         color: var(--textcolor);
+    }
+    .section1ContentWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .qrcodestepswrapper{
+        width: 358px;
+        height: 210px;
+    }
+    .qrCodeSteps{
+        margin-left: 20px;
+        width: 349px;
+        /* height: 40px; */
+        display: flex;
+    }
+    .qrCodeSteps p{
+        margin-left: 20px;
+        font-family: 'Gilroy';
+        color: var(--textcolor);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .qrCodeSteps img{
+        width: 19px;
+        height: 18px;
+    }
+    
+    /* section 1 image part start */
+    .section1-imgpart {
+        text-align: right;
+    }
+    .section1-imgpart img{
+        width: 508.69px;
+        height: 443px;
+    }
+    /* section 1 image part end */
+    /* section 1 css end */
+
+/* section 2 css start */
+.sectionTwo{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section2Content{
+    width: 500px;
+    height: 279px;
+}
+.section2ContentWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.section2Content h2{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40.22px; 
+    font-family: 'Merriweather';
+    color: var(--textcolor);
+    width: 500px;
+    height: 40px;
+}
+.section2Content ol{
+    margin-top: 30px;
+    font-family: 'Gilroy';
+    color: var(--textcolor);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    height: 183px;
+    width: 483px;
+}
+.section2-imgpart{
+    text-align: center;
+}
+.section2-imgpart img{
+    width: 307.55px;
+    height: 449px;
+}
+/* section 2 css end */
+/* section 3 css start */
+.sectionThreeParent {
+    width: 100%;
+    margin: 0 auto;
+}
+.sectionThree{
+    width: calc(100vw - 0px);
+    margin-left: calc(-50vw + 50%);
+    height: 691px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--sectionbg); 
+}
+.sectionThreerow{
+    width: 64%;
+}
+.section3Content{
+    /* width: 500px; */
+    height: 453px;
+}
+.section3Content p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 488px;
+    height: 72px;
+}
+.section3Content h2{
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* width: 500px; */
+height: 40px;
+}
+.section3ContentWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.section3qrcodestepswrapper{
+    width: 452px;
+    height: 262px;
+}
+.section3qrcodestepswrapper div{
+height: 60px;
+width: 100%;
+}
+.section3-imgpart{
+    text-align: center;
+}
+.section3-imgpart img{
+    width: 443.95px;
+    height: 491px
+}
+/* section 3 css end */
+
+/* section 4 css start */
+.sectionFour{
+    width: 100%;
+    height: 978px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+/* section 4 css start */
+.section4-imgpart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    align-items: center;  
+    }
+    .section4-imgpart img{
+        width: 591.51px;
+        height: 787.39px;
+    }
+    .section4Content{
+        width: 495px;
+        height: 778px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section4Content h2{
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+         line-height: 40px;
+    }
+    .section4Content p{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .section4qrcodestepswrapper{
+        width: 465px;
+        height: 527px;
+    }
+    .section4qrcodestepswrapper div{
+        width: 465px;
+        height: auto;
+    }
+    /* section 4 end */
+
+    /* section 5 start */
+    .sectionFiveParent{
+        width: 1170px;
+        margin: 0 auto;  
+    }
+    .sectionfive{
+        width: calc(100vw - 0px);
+        margin-left: calc(-50vw + 50%);
+        height: 830px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--sectionbg); 
+    }
+    .restaurantCategories{
+        width: 64%;
+    }
+    .sectionfiveContent h2{
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .sectionfivePara{
+        width: 928px;
+        height: 78px;
+        margin: 25px auto 0px auto;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .restaurantItems h4{
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .restaurantItems p{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    /* section 5 end */
+
+    /* section 6 css start */
+    .sectionSix{
+        width: 100%;
+        height: 725px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section6Content{
+        height: 492px;
+        width: 556px;
+    }
+    .section6Content h2{
+        height: 40px;
+        width: 556px;
+        font-family: 'Merriweather';
+       font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+      line-height: 40px;
+    }
+    .section6Content p{
+        width: 546px;
+        height: 96px;
+        margin-top: 30px;
+        font-family: 'Gilroy';
+         font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .section6-imgpart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+    .section6-imgpart img{
+        width: 492px;
+        height: 525px;
+     }
+    
+     .section6InnerParent{
+        width: 499px;
+        height: 251px;
+     }
+     .section6row1{
+        width: 484px;
+     }
+     .section6Inner1{
+        width: 240px;
+        height: 101px;
+        text-align: center;
+     }
+     .section6Inner1 img{
+        width: 56.36px;
+       height: 56.36px;
+     }
+     .section6Inner1 h4{
+        width: 240px;
+        height: 24px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+     }
+     .section6Inner2{
+        text-align: center;
+        width: 130px;
+        height: 140px;
+     }
+     .section6Inner2 img{
+        width: 56.36px;
+       height: 56.36px;
+     }
+     .section6Inner2 h4{
+        width: 130px;
+        height: 24px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+     }
+
+     .section6Inner3{
+        text-align: center;
+        width: 223px;
+        height: 101px;
+     }
+     .section6Inner3 img{
+        width: 56.36px;
+       height: 56.36px;
+     }
+     .section6Inner3 h4{
+        width: 223px;
+        height: 24px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+     }
+     .section6Inner4{
+        text-align: center;
+        width: 198px;
+        height: 101px;
+     }
+     .section6Inner4 img{
+        width: 56.36px;
+       height: 56.36px;
+     }
+     .section6Inner4 h4{
+        width: 198px;
+        height: 24px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+     }
+    /* section 6 css end */
+
+    /* section 7 css start */
+    .sectionSevenParent{
+        width: 1170px;
+        margin: 0 auto; 
+    }
+    .sectionSeven{
+        width: calc(100vw - 0px);
+        margin-left: calc(-50vw + 50%);
+        height: 1494px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--sectionbg); 
+    }
+    .section7firstHead{
+        font-family: 'Merriweather';
+       font-style: normal;
+         font-weight: 400;
+       font-size: 32px;
+         line-height: 40px;
+       width: 944px;
+       height: 40px;
+       text-align: center;
+    }
+    .sectionSevenPara{
+        margin-top: 20px;
+        width: 944px;
+        height: 96px;
+        font-family: 'Gilroy';
+       font-style: normal;
+       font-weight: 400;
+      font-size: 18px;
+       line-height: 24px;
+         text-align: center;
+    }
+    .section7InnerParent1{
+        width: 956px;
+        height: 338px;
+    }
+.section7Inner1{
+    width: 326px;
+    height: 296px;
+}
+.section7Inner1Content {
+    width: 522px;
+    height: 293px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section7Inner1Content h2{
+    width: 500px;
+    height: 40px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+.section7Inner1Content p{
+    width: 522px;
+    height: 120px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.section7Inner2{
+    width: 326px;
+    height: 296px;
+}
+.section7Inner3{
+    width: 326px;
+    height: 293.22px;
+}
+.section7InnerThreeRow
+{
+    margin-top: 13%;
+}
+/* section seven css end */
+
+/* section eight css start */
+.sectionEight{
+    width: 100%;
+    height: 612px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sectionEight h2{
+height: 40px;    
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+}
+.sectionEight p{
+    width: 944px;
+    height: 72px;
+    margin: 25px auto 0 auto;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.restaurantBrands{  
+    width: 74%;
+    height: 125px;
+    margin: 5% auto 0 auto;
+}
+.restaurantBrandsInner{
+    width: 125px;
+    height: 125px;
+}
+/* section eight css end */
+
+/* section nine css start */
+.sectionNineParent{
+    width: 1170px;
+    margin: 0 auto; 
+}
+.sectionNine{
+    width: calc(100vw - 0px);
+    margin-left: calc(-50vw + 50%);
+    height: 1323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--sectionbg); 
+}
+.pricingHead{
+height: 40px;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+}
+.pricingsubHead{
+    height: 24px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.singlePackage{
+    background-color: #fff;
+    width: 569px;
+    height: 966px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 4%), 0px 4px 12px rgb(0 0 0 / 6%)
+}
+.PricingImage img {
+    width: 112px;
+    height: 122px;
+}
+.packageSingleHead{
+    margin-top: 3%;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+.packageSingleSubHead{
+    margin-top: 4%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+.pricingContent div{
+    width: 100%;
+}
+.pricingContent{
+    margin-top: 4%;
+    padding: 0 10%;
+}
+.pricingContent p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.pricingButton1{
+    margin-top: 35%;
+    width: 288px;
+    height: 44px;
+    background: var(--primaryheaderbg);
+    color: var(--headingsecondary);
+    border: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.pricingButton2{
+    margin-top: 20%;
+    width: 288px;
+    height: 44px;
+    background: var(--primaryheaderbg);
+    color: var(--headingsecondary);
+    border: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* Packages section css end */
+/* section nine css end */
+
+/* Footer css start */
+#backtoTopBtn{
+    display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: var(--primaryheaderbg);
+  box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.75);
+  color: white;
+  cursor: pointer;
+  padding: 10px 17px;
+  border-radius: 60px;
+}
+.OMMFooter{
+    width: 100%;
+    height: 161px;
+    background: var(--primaryheaderbg);
+    }
+    .footerContainer{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .footerNav1{
+        margin-top: 12%;
+        width: 280px;
+        height: 28px;
+    }
+    .footerNav1 ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerNav1 ul li{
+        list-style: none;
+    }
+    .footerNav1 ul li a{
+        font-family: 'Visby CF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--headingsecondary);
+        text-decoration: none;
+    }
+    .footerLogo{
+        margin-top: 3%;
+    }
+    .footerLogo img{
+        width: 157px;
+        height: 58.54px;
+    }
+    .footerNav2{
+        margin-top: 12%;
+        width: 280px;
+        height: 28px;
+    }
+    .footerNav2 ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerNav2 ul li{
+        list-style: none;
+    }
+    .footerNav2 ul li a{
+        font-family: 'Visby CF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--headingsecondary);
+        text-decoration: none;  
+    }
+    .footerDivider{
+        width: 1145px;
+        margin-left: auto ;
+        margin-right: auto ;
+        height: 2px !important;
+        background-color: #E5E5E5;
+    }
+    .footerSocialIcons{
+        width: 113px;
+        margin: 1% 8% 0% 8%;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .twitter-icon{
+        width: 22px;
+      height: 17.94px;
+    }
+    .insta-icon{
+        width: 20px;
+       height: 20px;
+    }
+    .facebook-icon{
+        width: 11px;
+       height: 20px;
+    }
+    .footerCopyRight p{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: var(--headingsecondary);
+        text-align: center;
+    }
+    .footerCopyRight img{
+        width: 20px;
+        padding: 5%;
+    }
+    .OMMMobileFooter{
+        display: none;
+    }
+    .footerNumber{
+        font-size: 16px;
+        color: var(--headingsecondary);
+        font-family: 'Gilroy';
+        font-weight: 400;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .footerWebDetails {
+        margin-top: -3%;
+    }
+    /* Footer css end */
+
+
+
+
+#click{
+    display: none;
+}
+
+
+@media  (min-width: 1280px) and (max-width: 1920px) {
+    /* section three css start */
+    .sectionThreeParent {
+        width: 1140px;
+    }
+    /* section five */
+    .sectionFiveParent{
+        width: 1135px;
+    }
+    /* secetion seven */
+    .sectionSevenParent {
+        width: 1135px;
+        margin: 0 auto;
+    }
+    /* section nine css */
+    .sectionNineParent{
+        width: 1145px;
+    }
+}
+
+@media screen and (max-width: 1536px) {
+    /* section three css */
+    .sectionThreerow {
+        width: 75% !important;
+    } 
+    /* section 5 css start */
+    .restaurantCategories{
+        width: 77.5% !important;
+    }
+}
+@media screen and (max-width: 1600px) {
+    /* section three css */
+    .sectionThreerow {
+        width: 73%;
+    }   
+    /* section 5 css start */
+    .restaurantCategories{
+        width: 74.5%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    /* section three css start */
+    .sectionThreerow {
+        width: 81% !important;
+    }
+    /* section 5 css start */
+    .restaurantCategories{
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    /* section three css start */
+    .sectionThreerow {
+        width: 84%;
+    }
+    /* section 5 css start */
+    .restaurantCategories{
+        width: 84.5%;
+    }
+}
+
+@media screen and (max-width: 1366px){
+    /* section three css start */
+    .sectionThreerow {
+        width: 85% !important;
+    }
+    /* section 5 css start */
+    .restaurantCategories{
+        width: 87% !important;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    /* section three css start */
+    .sectionThreerow {
+        width: 90% !important;
+    }
+    /* section 5 css start */
+    .restaurantCategories{
+        width: 92% !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .desktopLinks{
+        display: block;
+    }
+    .mobileLinks{
+        display: none;
+    }
+    .OMMNav .menu-btn i{
+        display: block;
+    }
+    #click:checked ~ .menu-btn i::before{
+        content: '\f00d';
+    }
+    .OMMNav ul{
+        padding: 0;
+        position: fixed;
+        top: 104px;
+        left: -100%;
+        height: 100vh;
+        background: var(--headingsecondary);
+        width: 100%;
+        display: block;
+        text-align: center;
+        z-index: 1;
+        transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+    left: 0%;
+    }
+    .OMMNav ul li{
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .OMMNav ul li a{
+        color: var(--primaryheaderbg);
+    }
+    .OMMNav ul li a{
+        font-size: 28px;
+        font-family: 'Gilroy';
+    }
+}
+
+/* Mobile media queries */
+@media (min-width: 360px) and (max-width: 768px)  {
+    /* Header Bannnr section */
+    .MainBannerParent{
+        height: 730px;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .activeheader{
+        height: 90px;
+    }
+    .bannerContentWrapper{
+        height: 481.9px;
+    }
+    .MainHeader{
+        height: 800px;
+    }
+    .OMMNav{
+        width: 93%;
+    }
+    .OMMNav div{
+        margin: 5% 0 0 0;
+    }
+    .OMMNav .menu-btn i{
+        font-size: 35px;
+        margin-top: 7%;
+    }
+    .BannerImg{
+        text-align: center;
+        margin-top: -8%;
+    }
+    .BannerImg img{
+        width: 300px;
+        height: 280px;
+    }
+    .bannerContent{
+        width: 100%;
+        height: auto;
+    }
+    .bannerContent h1{
+        text-align: center;
+        font-size: 30px;
+        line-height: 50px;
+        width: 100%;
+        height: 120px;
+    }
+    .bannerContent h2{
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    .headerbtn{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    }
+     /* section 1 css start */
+     .sectionOne {
+        height: 750px !important;
+        /* margin-bottom: 15%; */
+    }
+     .section1Content{
+        width: 100%;
+        height: auto;
+     }
+     .MenuDivider{
+        width: 15%;
+        margin: 5% auto;
+     }
+     .section1Content h2{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+     }
+     .qrcodestepswrapper{
+        width: 100%;
+     }
+     .qrCodeSteps{
+        width: 100%;
+        height: auto;
+        margin-left: 10px;
+     }
+     .qrCodeSteps p{
+        font-size: 17px;
+     }
+     .section1-imgpart{
+        text-align: center;
+     }
+     .section1-imgpart img{
+        margin-top: 46%;
+        width: 300px;
+        height: 280px;
+     }
+
+     /* section 2 css start */
+     .sectionTwo{
+        width: 100%;
+        height: auto;
+        margin-bottom: 21%;
+     }
+     .section2Content{
+        width: 100%;
+        height: 313px;
+     }
+     .section2Content h2{
+         width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+     
+     .section2Content p{
+        margin-top: 5%;
+     }
+     .section2Content p{
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+     }
+     .section2-imgpart img{
+        margin-top: 10%;
+        width: 300px;
+        height: 450px;
+     }
+
+     /* section three start */
+     .sectionThree{
+        height: auto;
+        padding: 5% 0 13% 0;
+     }
+     .sectionThreerow{
+        width: 100% !important;
+     }
+     .section3Content{
+        width: 100%;
+        height: 400px;
+    }
+    .section3Content h2{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        height: auto;
+    }
+    .section3Content p{
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+    .section3qrcodestepswrapper{
+        width: 100%;
+        margin-top: 14%;
+    }
+    .section3-imgpart img{
+        margin-top: 25%;
+        width: 300px;
+        height: 400px;
+    }
+    .section3Content{
+        height: 565px;
+    }
+    .section3qrcodestepswrapper p{
+        text-align: left;
+        font-size: 17px;
+        padding: 0 4%;
+    }
+     /* section three end */
+     /* section four start */
+     .sectionFour{
+     width: 100%;
+     height: auto;
+     margin: 18% 0 10% 0;
+     }
+     .section4-imgpart img{
+        width: 300px;
+        height: 400px;
+     }
+     .section4-imgpart{
+        display: block;
+        margin: 0 6%;
+     }
+     .section4Content{
+        width: 100%;
+        height: 503px;
+     }
+     .section4Content h2{
+        text-align: center;
+        font-size: 30px;
+     }
+     .section4Content p{
+        text-align: center;
+        font-size: 17px;
+     }
+     .section4qrcodestepswrapper{
+        width: 100%;
+     }
+     .section4qrcodestepswrapper div{
+        width: 100%;
+     }
+     .section4qrcodestepswrapper p{
+        text-align: left;
+        width: 100%;
+        font-size: 17px;
+        padding: 0 4%;
+     }
+     /* section four end */
+
+     /* section Five css start */
+     .sectionFiveParent{
+        width: 100%;
+     }
+     .sectionfive{
+        height: auto;
+        padding: 5% 0 7% 0;
+     }
+     .sectionfiveContent h2{
+        width: 100%;
+        font-size: 30px;
+     }
+     .sectionfivePara{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        font-size: 19px;
+        text-align: center;
+     }
+     .restaurantCategories{
+        width: 100% !important;
+     }
+     .restaurantItems h4{
+        font-size: 24px;
+        text-align: center;
+     }
+     .restaurantItems p {
+        text-align: center;
+        font-size: 17px;
+    }
+     /* section Five css end */
+
+     /* section six css start */
+     .sectionSix{
+        height: auto;
+        margin: 10% 0 18% 0;
+     }
+     .section6Content{
+        width: 100%;
+     }
+     .section6Content h2{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        height: auto;
+     }
+     .section6Content p{
+       width: 100%;
+       font-size: 17px;
+       text-align: center;
+       height: auto;
+     }
+     .section6InnerParent{
+        width: 100%;
+        height: auto;
+     }
+     .section6row1{
+        width: 100%;
+     }
+     .section6row2{
+        width: 100%;
+     }
+     .section6Inner1{
+        width: 50%;
+     }
+     .section6Inner1 img{
+        width: 50px;
+        height: 50px;
+     }
+     .section6Inner1 h4 {
+        width: 100%;
+        font-size: 18px;
+    }
+     .section6Inner2{
+        width: 50%;
+     }
+     .section6Inner2 h4 {
+        width: 100%;
+        font-size: 18px;
+    }
+     .section6Inner3{
+        width: 50%;
+     }
+     .section6Inner3 h4 {
+        width: 100%;
+        font-size: 18px;
+    }
+     .section6Inner4{
+        width: 50%;
+     }
+     .section6Inner4 h4 {
+        width: 100%;
+        font-size: 18px;
+    }
+    .section6-imgpart{
+        display: block;
+        text-align: center;
+    }
+    .section6-imgpart img{
+        margin-top: 35%;
+        width: 350px;
+        height: 375px;
+    }
+     /* section six css end */
+
+     /* section seven css start */
+     .sectionSevenParent{
+        width: 100%;
+        height: auto;
+     }
+     .sectionSeven{
+        height: auto;
+        padding: 8% 0 0% 0;
+     }
+     .section7Content hr{
+        margin: 3% 0;
+        width: 14%;
+     }
+     .section7firstHead{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 5%;
+     }
+     .sectionSevenPara{
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        padding: 0 6%;
+        height: auto;
+     }
+     .section7InnerParent1{
+        width: 100%;
+        height: auto;
+     }
+     .section7Inner1{
+        width: 100%;
+        text-align: center;
+     }
+     .section7Inner1Content{
+        width: 100%;
+     }
+     .section7Inner1Content h2{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        height: auto;
+     }
+     .section7Inner1Content p{
+        width: 100%;
+        font-size: 17px;
+        height: auto;
+        text-align: center;
+        padding: 0 5%;
+     }
+     .section7Inner2{
+        width: 100%;
+        text-align: center;
+     }
+     .cashlessPayments{
+        margin-top: 20%;
+     }
+     .section7Inner3{
+        width: 100%;
+        text-align: center;
+     }
+     .OnlineOrdering{
+        margin-top: 2%;
+     }
+     .section7InnerThreeRow{
+        margin-top: 20%;
+     }
+
+     /* section seven css end */
+     /* section eight css start */
+     .sectionEight{
+        width: 100%;
+        height: auto;
+        margin: 10% 0 18% 0;
+     }
+     .sectionEight h2{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        height: auto;
+     }
+     .sectionEight p{
+        width: 100%;
+        height: auto;
+        font-size: 17px;
+        text-align: center;
+        padding: 0 5%;
+     }
+     .restaurantBrands{
+        width: 100%;
+        height: auto;
+     }
+     .restaurantBrandsInner{
+         width: 50%;
+         height: auto;
+         text-align: center;
+         margin-top: 5%;
+     }
+     .restaurantBrandsInnerMobile{
+        width: 100%;
+        text-align: center;
+     }
+     /* section eight css end */
+
+    /* section Nine css start */
+    .sectionNineParent{
+        width: 100%;
+        height: auto;
+    }
+    .sectionNine{
+        height: auto;
+        padding: 8% 0 0% 0;
+    }
+    .section9Content hr{
+        width: 13%;
+    }
+    .pricingHead{
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        text-align: center;
+    }
+    .pricingsubHead{
+        width: 100%;
+        height: auto;
+        font-size: 17px;
+        text-align: center;
+    }
+    .singlePackage{
+        width: 100%;
+        height: auto;
+        margin-bottom: 15%;
+        padding: 10% 0;
+    }
+    .singlePackageMobile{
+        padding: 0 7%;
+    }
+    .PricingImage img{
+        width: 80px;
+        height: 80px;
+    }
+    .packageSingleHead{
+        font-size: 30px;
+        width: 100%;
+        text-align: center !important;
+    }
+    .packageSingleSubHead{
+       margin-top: 5% !important;
+    }
+    .pricingContent > div{
+        height: auto;
+    }
+    /* section Nine css end */
+
+    /* footer css start  */
+    .OMMFooter{
+        display: none;
+    }
+    .OMMMobileFooter{
+        width: 100%;
+        background: var(--primaryheaderbg);
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .MobilefooterContainer{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .mobileFooterLogo{
+        text-align: center;
+    }
+    .mobileFooterLogo img{
+        width: 150px;
+    }
+    .mobileCopyright p{
+        font-size: 15px;
+        color: var(--headingsecondary);
+        text-align: center;
+        font-family: 'Gilroy';
+        margin-bottom: 0;
+    }
+    .section2Content ol{
+        width: auto;
+    }
+    /* footer css end  */
+
+     }
+    
+  @media screen and (max-width: 414px) {
+    .section2-imgpart img{
+        margin-top: 38%;
+    }
+    .section1Content{
+        margin-top: 15%;
+    }
+    .section1-imgpart img{
+        margin-top: 32%;
+    }
+  }
+
+     @media screen and (max-width: 393px){
+        .section6-imgpart img{
+            margin-top: 46%;
+        }
+        .section2-imgpart img{
+            margin-top: 43%;
+        }
+        .section1Content{
+            margin-top: 10%;
+        }
+        .section1-imgpart img{
+            margin-top: 28%;
+        }
+     }
+    @media screen and (max-width: 390px) {
+        .section1Content{
+            margin-top: 12%;
+        }
+        .section1-imgpart img{
+            margin-top: 29%;
+        }
+        .bannerContent h1{
+            height: auto;
+        }
+        .section2Content h2{
+            height: auto;
+        }
+        .section2-imgpart img{
+            margin-top: 50%;
+        }
+        .sectionFour{
+            margin: 18% 0 0% 0;
+        }
+        .section6-imgpart img{
+            margin-top: 50%;
+        }
+    }
+
+     @media screen and (max-width: 360px) {
+        .section6-imgpart img {
+            margin-top: 72% !important;
+        }
+        .restaurantItems img{
+            width: 340px;
+        }
+        .section2-imgpart img{
+            margin-top: 48%;
+        }
+        .sectionFour{
+            margin: 18% 0 20% 0;
+        }
+        .sectionfiveContent h2{
+            padding: 3%;
+        }
+        .sectionfivePara{
+            padding: 4%;
+        }
+        .section2Content{
+            height: 366px;
+            margin-top: 25%;
+        }
+        .section2Content h2{
+            height: auto;
+        }
+        .bannerContent h1{
+            height: auto;
+        }
+     }
+    
